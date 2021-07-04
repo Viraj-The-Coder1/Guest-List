@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>
+            Guest List
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <center>
+            <section id="addsection">
+                <h1 id="T1">
+                    Guest List 
+                </h1>
+                <span> 
+                    <input type="text" placeholder="Guests Names" id="guestinput">
+                    <button type="button" id="submitB" onclick="submit()">
+                        SUBMIT
+                    </button>
+                </span>
+                <div id="showDIV">
+                </div>
+            </section>
+            <section id="showsection">
+                <h1 id="T2">
+                    Guest List
+                </h1>
+                <span>
+                    <button type="button" id="showB" onclick="show()">
+                        SHOW
+                    </button>
+                </span>
+                <div id="displayDIV">
+
+                </div>
+            </section>
+            <section id="searchsection">
+                <span>
+                    <input type="text" placeholder="Search Guests" id="searchinput">
+                    <button type="button" id="searchB" onclick="search()">
+                        SEARCH
+                    </button>
+                </span>
+                <div id="searchDIV">
+                </div>
+            </section>
+        </center>
+        <script src="main.js">
+        </script>
+    </body>
+</html>

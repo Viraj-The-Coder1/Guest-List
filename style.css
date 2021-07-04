@@ -1,0 +1,26 @@
+body{
+    background-color: antiquewhite;
+}
+#T1{
+    color: blueviolet;
+}
+#T2{
+    color:rgb(77, 44, 139);
+}
+#submitB{
+    color: black;
+}
+#showB{
+    color: black;
+}
+#searchB{
+    color:black;
+}
+#addsection{
+    margin-top: 200px;
+}
+#showsection{display: none;
+}
+#searchsection{display: none;
+    margin-top: 30px;
+}
